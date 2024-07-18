@@ -14,6 +14,9 @@
 		AFB4E37D2C48EF22000F7B7D /* DayLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4E37C2C48EF22000F7B7D /* DayLogTests.swift */; };
 		AFB4E3872C48EF22000F7B7D /* DayLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4E3862C48EF22000F7B7D /* DayLogUITests.swift */; };
 		AFB4E3892C48EF22000F7B7D /* DayLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4E3882C48EF22000F7B7D /* DayLogUITestsLaunchTests.swift */; };
+		AFB4E3962C48EF6F000F7B7D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4E3952C48EF6F000F7B7D /* MainView.swift */; };
+		AFB4E3982C48EF7E000F7B7D /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4E3972C48EF7E000F7B7D /* ResultView.swift */; };
+		AFB4E39A2C4901B3000F7B7D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB4E3992C4901B3000F7B7D /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		AFB4E3822C48EF22000F7B7D /* DayLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB4E3862C48EF22000F7B7D /* DayLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayLogUITests.swift; sourceTree = "<group>"; };
 		AFB4E3882C48EF22000F7B7D /* DayLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFB4E3952C48EF6F000F7B7D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AFB4E3972C48EF7E000F7B7D /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		AFB4E3992C4901B3000F7B7D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				AFB4E36B2C48EF20000F7B7D /* DayLogApp.swift */,
 				AFB4E36D2C48EF20000F7B7D /* ContentView.swift */,
+				AFB4E3992C4901B3000F7B7D /* OnboardingView.swift */,
+				AFB4E3952C48EF6F000F7B7D /* MainView.swift */,
+				AFB4E3972C48EF7E000F7B7D /* ResultView.swift */,
 				AFB4E36F2C48EF22000F7B7D /* Assets.xcassets */,
 				AFB4E3712C48EF22000F7B7D /* Preview Content */,
 			);
@@ -258,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB4E36E2C48EF20000F7B7D /* ContentView.swift in Sources */,
+				AFB4E3982C48EF7E000F7B7D /* ResultView.swift in Sources */,
+				AFB4E3962C48EF6F000F7B7D /* MainView.swift in Sources */,
+				AFB4E39A2C4901B3000F7B7D /* OnboardingView.swift in Sources */,
 				AFB4E36C2C48EF20000F7B7D /* DayLogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
